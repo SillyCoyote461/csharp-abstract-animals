@@ -7,16 +7,10 @@ using System.Threading.Tasks;
 
 public interface IFlying
 {
-    void Fly()
-    {
-        Console.WriteLine("I'm flying!");
-    }
+    void Fly();
 }
 
 public interface ISwimming
 {
-    void Swim()
-    {
-        Console.WriteLine("I'm swimming!");
-    }
+    void Swim();
 }

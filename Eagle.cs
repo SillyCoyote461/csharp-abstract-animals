@@ -16,5 +16,10 @@ internal class Eagle : Animal, IFlying
     {
         Console.WriteLine("Meat");
     }
+
+    public void Fly()
+    {
+        Console.WriteLine("I'm flying!");
+    }
 }
 

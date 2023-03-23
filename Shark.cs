@@ -16,5 +16,10 @@ internal class Shark : Animal, ISwimming
     {
         Console.WriteLine("Meat");
     }
+
+    public void Swim()
+    {
+        Console.WriteLine("I'm swimming!");
+    }
 }
 

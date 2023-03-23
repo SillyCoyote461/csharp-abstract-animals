@@ -9,4 +9,8 @@ public abstract class Animal
     public abstract void AnimalCall();
     public abstract void AnimalDiet();
     public void Sleep() => Console.WriteLine("ZZZzzz...");
+
+    public void DoFly(IFlying animal) => animal.Fly();
+
+    public void DoSwim(ISwimming animal) => animal.Swim();
 }
