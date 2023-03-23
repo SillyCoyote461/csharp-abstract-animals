@@ -9,12 +9,14 @@ internal class Puffin : Animal, IFlying, ISwimming
 {
     public override void AnimalCall()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("*Cip cip*");
+
     }
 
     public override void AnimalDiet()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("*Fish*");
+
     }
 
     public void Fly()
