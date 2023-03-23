@@ -3,7 +3,8 @@
     new Dog(),
     new Sheep(),
     new Shark(),
-    new Eagle()
+    new Eagle(),
+    new Puffin()
 };
 
 foreach (var animal in animals)
