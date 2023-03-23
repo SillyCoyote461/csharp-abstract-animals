@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-internal class Shark : Animal
+internal class Shark : Animal, ISwimming
 {
     public override void AnimalCall()
     {

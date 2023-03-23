@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-internal class Eagle : Animal
+internal class Eagle : Animal, IFlying
 {
     public override void AnimalCall()
     {
